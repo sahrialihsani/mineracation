@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+{% block content %}
+<center>
+    <div class="centered">
+        <p><b>Upload gambar untuk diprediksi</b></p>
+        <div class="upload-form">
+          <form action = "/uploader" method = "POST" enctype = "multipart/form-data">
+            <input type = "file" name = "file" required/>
+            <input type = "submit"/>
+          </form>
+        </div>
+ </div>
+</center> 
+{% endblock %}
