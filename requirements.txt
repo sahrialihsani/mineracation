@@ -3,6 +3,6 @@ Flask-RESTful==0.3.6
 # ipython==7.2.0
 # ipython-genutils==0.2.0
 numpy==1.21.0
-torch==1.7.1
+# torch==1.7.1
 # torchfile==0.1.0
 # torchvision==0.2.1
